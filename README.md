@@ -11,16 +11,17 @@ Steps to execute this porject
 1.First start server and client to simulate a continous data stream .
 compile the ServerSocketExample and Client java files.
 execute them (remember ServerSocketExample first and then Client).
-    java ServerSocketExample
-    java Client
-
+```java ServerSocketExample
+   java Client
+```
 The data in mushroom.dat will be sent to f1.dat in a window size of 8.
 
 2. Execute the algo.
 Start the UI for algo.
-    java AprioriUI 
-
+```java AprioriUI 
+```
 this will start the front end of the algo.
+
 Enter a support and confidence value in between 0-1(in decimals).
-and click to start the process. After executing click "Frequent Patterns" to show the generated patters and "Generated Rules" to see the rules.
-----------------------------------------------------------------------------
+and click to start the process. 
+After executing click "Frequent Patterns" to show the generated patters and "Generated Rules" to see the rules.
