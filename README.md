@@ -11,7 +11,7 @@ Steps to execute this porject:
 compile the ServerSocketExample and Client java files.
 execute them (remember ServerSocketExample first and then Client).
 ```java ServerSocketExample
-java Client
+   java Client
 ```
 The data in mushroom.dat will be sent to f1.dat in a window size of 8.
 
